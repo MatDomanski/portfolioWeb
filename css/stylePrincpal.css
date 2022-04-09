@@ -3,20 +3,23 @@
     padding: 0%;
 }
 body{
+    font-family: 'Roboto Slab', serif;
     background-color: rgb(10, 1, 48);
 }
 
-.navBar{
-    background-color: rgba(0, 0, 0, 0.281);
+.n2avBar{
+    background-color: rgba(0, 0, 0, 0.226);
+    backdrop-filter: 10px;
+    -webkit-backdrop-filter: blur(10px);
     padding: 1%;
     width: 100%;
-    height: 5%;
+    height: 2.8em;
     word-spacing: 0.2em;
-    margin-top: -1.8%;
+    margin-top: -1.9%;
     position: fixed;
     text-align: center;
     font-size: 130%;
-    color: white;
+    color: rgba(255, 255, 255, 0.452);
     
 }
 
@@ -24,11 +27,10 @@ body{
     margin: auto;
     color: white;
     font-size: 108%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 90%;
+    width: 75%;
     text-align: center;
-    padding: 1%;
     padding-top: 10%;
+    background: no-repeat url(../img/semFundo2.png) ;
     margin-top: 2%;
     min-height: 30em;
     border-radius: 5%;
@@ -37,12 +39,63 @@ body{
 .cont1{
     color: white;
     font-size: 108%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
     width: 100%;
     text-align: center;
     padding: 1%;
-    padding-top: 10%;
+    padding-top: 5%;
     min-height: 30em;
-    background: linear-gradient(rgb(10, 1, 48), rgb(76, 7, 141),rgb(10, 1, 48));
+    background: linear-gradient(rgba(10, 1, 48, 0.658), rgb(76, 7, 141),rgb(10, 1, 48));
     border-radius: 5%;
+}
+
+.redes-sociais{
+    width: 20%;
+    padding-top: 2%;
+    height: 100%;
+    float: left;
+}
+
+.redes-sociais a{
+    color: black;
+    
+}
+
+.redes-sociais svg {
+    width: 20%;
+    height: 20%;
+    margin-bottom: 50%;
+}
+
+.redes-sociais div{
+    width: 100%;
+}
+
+
+
+.sobre-mim{
+    height: 100%;
+    width: 80%;
+    float: right;
+    
+    font-size: 70%;
+}
+
+.perfil{
+    height: 100%;
+    width: 100%;
+    border: 3px rgb(199, 33, 33) solid;
+    
+    
+}
+
+.perfil img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.descricao{
+    width: 100%;
+    font-size:70%;
 }
