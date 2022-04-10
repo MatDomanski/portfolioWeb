@@ -7,95 +7,110 @@ body{
     background-color: rgb(10, 1, 48);
 }
 
-.n2avBar{
-    background-color: rgba(0, 0, 0, 0.226);
-    backdrop-filter: 10px;
-    -webkit-backdrop-filter: blur(10px);
-    padding: 1%;
-    width: 100%;
-    height: 2.8em;
-    word-spacing: 0.2em;
-    margin-top: -1.9%;
-    position: fixed;
-    text-align: center;
-    font-size: 130%;
-    color: rgba(255, 255, 255, 0.452);
-    
-}
 
 .cont_principal{
     margin: auto;
     color: white;
     font-size: 108%;
+    min-height: 43em;
     width: 75%;
     text-align: center;
     padding-top: 10%;
-    background: no-repeat url(../img/semFundo2.png) ;
+    background: no-repeat url(../img/semFundo-2.png) ;
     margin-top: 2%;
-    min-height: 30em;
     border-radius: 5%;
 }
 
 .cont1{
     color: white;
     font-size: 108%;
-    
     width: 100%;
     text-align: center;
     padding: 1%;
     padding-top: 5%;
     min-height: 30em;
-    background: linear-gradient(rgba(10, 1, 48, 0.658), rgb(76, 7, 141),rgb(10, 1, 48));
+    background: linear-gradient(rgba(10, 1, 48, 0.658), rgba(95, 5, 179, 0.966),rgb(10, 1, 48));
     border-radius: 5%;
 }
 
 .redes-sociais{
-    width: 20%;
+    width: 19%;
     padding-top: 2%;
     height: 100%;
-    float: left;
+    float: left;   
+    min-height: 25em;
 }
 
 .redes-sociais a{
     color: black;
-    
 }
 
 .redes-sociais svg {
-    width: 20%;
-    height: 20%;
-    margin-bottom: 50%;
+    width: 25%;
 }
 
-.redes-sociais div{
-    width: 100%;
+.gitM{
+    margin-bottom: 0%;  
+    margin-bottom: 40%;
 }
 
+.instaM{
+    margin-bottom: 0%;    
+    margin-bottom: 40%;
+}
 
+.whatsM{
+    margin-bottom: 0%;    
+    margin-bottom: 40%;
+}
+
+.faceM{
+    margin-bottom: 0%;   
+}
+
+.bi-github:hover{
+    color: white;
+    transition: 1s;
+}
+
+.bi-instagram:hover{
+    color: rgb(211, 15, 97);
+    transition: 1s;
+}
+
+.bi-whatsapp:hover{
+    color: rgb(5, 194, 74);
+    transition: 1s;
+}
+
+.bi-facebook:hover{
+    color: rgb(3, 18, 156);
+    transition: 1s;
+}
 
 .sobre-mim{
     height: 100%;
-    width: 80%;
+    width: 79%;
     float: right;
-    
     font-size: 70%;
-}
-
-.perfil{
-    height: 100%;
-    width: 100%;
-    border: 3px rgb(199, 33, 33) solid;
-    
-    
-}
-
-.perfil img {
-    width: 100%;
-    height: 100%;
-
 }
 
 .descricao{
     width: 100%;
-    font-size:70%;
+    font-size:120%;
+    color: black;
+}
+
+.btn{
+    border:  0px;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    border-radius: 1em;
+    background: linear-gradient(345deg, #430e9e, #ff06c1 150% );
+    color: black;
+}
+.btn:hover{
+ color: black;
+ background: linear-gradient(345deg, #ff06c1,#430e9e 95%);
 }
